@@ -1,5 +1,5 @@
 """
-Propósito: concatenas verticalmente as imagens de cada pasta vinda do passo 5
+Propósito: concatenar verticalmente as imagens de cada pasta vinda do passo 5
 Autor: Alexandre Nassar de Peder
 Criação: 02/10/2025
 Atualização: 03/06/2026
@@ -10,11 +10,9 @@ OBS2: o objetivo deste passo é pegar as colunas já recortadas e empilhar uma e
 
 OBS3: este código vai criar uma imagem final chamada "colunas_concatenadas_verticalmente.png" que vai ter todas as colunas concatenadas verticalmente na ordem correta
 
-OBS4: não compensa concatenar as páginas inteiras. Tenha isso em mente para o passo 7. Concatene apenas as colunas.
+OBS4: não compensa concatenar as páginas inteiras. Tenha isso em mente para o passo 7
 
-OBS5: tem provas que as colunas são de tamanhos diferentes. Tenha isso em mente. Não ajuda muito ter uma coluna maior que a outra. Se esse for o seu caso, você pode ajustar o código para lidar com isso, tal como concatenar as colunas do mesmo tamanho e depois concatenar as colunas menores em outra imagem. Mas isso é um caso específico. Se precisar, coloque as colunas do mesmo tamanho em uma única pasta, e execute atualizando as linhas 24 e 60
-
-OBS6: execute o código
+OBS5: execute o código
 """
 
 from PIL import Image
